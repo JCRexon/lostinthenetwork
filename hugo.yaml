@@ -113,6 +113,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: Search
+      url: search/
+      weight: 10
     - identifier: archives
       name: Archives
       url: /archives/
