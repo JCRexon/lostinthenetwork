@@ -1,5 +1,5 @@
-baseURL: https://example.org/
-languageCode: en-us
+baseURL: https://lostinthenetwork.uk
+languageCode: en-gb
 title: Lost In the Network
 theme: ["PaperMod"]
 
@@ -14,10 +14,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: Lost In The Network
+  description: "Site description"
+  keywords: [Blog, Networking, Hugo, PaperMod]
+  author: James Miles
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -96,7 +96,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/JCRexon/lostinthenetwork/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
