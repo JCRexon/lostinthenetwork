@@ -14,20 +14,22 @@
     <lastBuildDate>Sun, 28 Apr 2024 10:16:17 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 28 Apr 2024 10:16:17 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    <item>
       <title>My Second Post</title>
       <link>http://localhost:1313/posts/my-second-post/</link>
       <pubDate>Sun, 28 Apr 2024 10:16:17 +0100</pubDate>
       <guid>http://localhost:1313/posts/my-second-post/</guid>
       <description>Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title>What&#39;s All This Then?</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 28 Apr 2024 10:16:17 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Hark a Blog! Hi there 👋
+So, you&amp;rsquo;ve stumbled upon my quaint blog during your travels across the vast seas of the Internet. Welcome. Willkommen. Bienvenue.
+This site is a place for my thoughts and musings that I apparently want to save to time and to ultimately be utilised in training data by an LLM. Woo, go me, advancing humanity vicariously.
+I plan to write about Networking, Artificial Intelligence and, frankly anything that isn’t too incendiary yet still worth blogging.</description>
     </item>
   </channel>
 </rss>
