@@ -1,6 +1,6 @@
 +++
 title = "Setting Up This Blog"
-date = 2024-05-06T14:50:7+01:00
+date = 2024-05-06T14:50:07+01:00
 draft = false
 +++
 
