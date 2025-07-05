@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Lost in the Network</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Lost in the Network</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jul 2025 10:16:17 +0100</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Beginnings</title>
-      <link>https://example.org/posts/my-third-post/</link>
+      <link>http://localhost:1313/posts/my-third-post/</link>
       <pubDate>Sat, 05 Jul 2025 10:16:17 +0100</pubDate>
-      <guid>https://example.org/posts/my-third-post/</guid>
+      <guid>http://localhost:1313/posts/my-third-post/</guid>
       <description>&lt;h2 id=&#34;similar-yet-different&#34;&gt;Similar Yet Different&lt;/h2&gt;
 &lt;p&gt;Please permit me the cliche. This post has been cooking for over 2 months at this point. That&amp;rsquo;s not an admission of fastidious hardwork in creating a compelling narrative, it&amp;rsquo;s a statement of how busy I have been since April 27 2025. Naturally the follow-on question is, &amp;lsquo;What happened April 27 2025?&amp;rsquo;, well I&amp;rsquo;m glad you asked.&lt;/p&gt;
 &lt;p&gt;I left my role as an Account Solutions Engineer and stepped into a specialisation role. The reasoning for the move was simple, I needed to move away from being aross a whole portfolio. The specialisaton role I have stepped into has been focused on all things Datacentre. It runs the whole gamut of solutions in the datacentre space and it&amp;rsquo;s where I want to be. One simply needs to look at the news and the renewed vigour in all things datacentre to understand the more mercenary reasons.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting Up This Blog</title>
-      <link>https://example.org/posts/my-second-post/</link>
+      <link>http://localhost:1313/posts/my-second-post/</link>
       <pubDate>Mon, 06 May 2024 14:50:07 +0100</pubDate>
-      <guid>https://example.org/posts/my-second-post/</guid>
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
       <description>&lt;p&gt;Hi there 👋&lt;/p&gt;
 &lt;p&gt;I want to briefly share with you how I got this blog up and running. Nowadays, it is much easier to stand up a static blog site and publish content. I will provide a short commentary and links where appropriate.&lt;/p&gt;
 &lt;p&gt;I started off by considering what tool I wanted to use for the code that underpins the site. After researching options, I was left with a decision between Pelican and Hugo. I settled on Hugo, as Hugo is built on Golang, and the quick start was more accessible to me at the time. Check out the quick start documentation here:&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s All This Then?</title>
-      <link>https://example.org/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Sun, 28 Apr 2024 10:16:17 +0100</pubDate>
-      <guid>https://example.org/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;hark-a-blog&#34;&gt;Hark a Blog&lt;/h2&gt;
 &lt;p&gt;Hi there 👋&lt;/p&gt;
 &lt;p&gt;So, you&amp;rsquo;ve stumbled upon my quaint blog during your travels across the vast seas of the Internet. Welcome. Willkommen. Bienvenue.&lt;/p&gt;
