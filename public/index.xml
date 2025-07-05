@@ -4,8 +4,13 @@
     <title>Lost in the Network</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Lost in the Network</description>
+    <image>
+      <title>Lost in the Network</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.147.9</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sat, 05 Jul 2025 10:16:17 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
