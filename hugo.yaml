@@ -1,7 +1,6 @@
 baseURL: "https://lostinthenetowork.uk/"
 title: Lost in the Network
 # paginate: 5
-theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
