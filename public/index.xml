@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lost In the Network</title>
-    <link>http://localhost:1313/</link>
+    <link>https://lostinthenetwork.uk/</link>
     <description>Recent content on Lost In the Network</description>
     <image>
       <title>Lost In the Network</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://lostinthenetwork.uk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://lostinthenetwork.uk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 28 Apr 2024 10:16:17 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 14:50:07 +0100</lastBuildDate>
+    <atom:link href="https://lostinthenetwork.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up This Blog</title>
+      <link>https://lostinthenetwork.uk/posts/20240506-blog-setup/</link>
+      <pubDate>Mon, 06 May 2024 14:50:07 +0100</pubDate>
+      <guid>https://lostinthenetwork.uk/posts/20240506-blog-setup/</guid>
+      <description>Hi there 👋
+I want to briefly share with you how I got this blog up and running. Nowadays, it is much easier to stand up a static blog site and publish content. I will provide a short commentary and links where appropriate.
+I started off by considering what tool I wanted to use for the code that underpins the site. After researching options, I was left with a decision between Pelican and Hugo.</description>
+    </item>
     <item>
       <title>What&#39;s All This Then?</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://lostinthenetwork.uk/posts/my-first-post/</link>
       <pubDate>Sun, 28 Apr 2024 10:16:17 +0100</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://lostinthenetwork.uk/posts/my-first-post/</guid>
       <description>Hark a Blog! Hi there 👋
 So, you&amp;rsquo;ve stumbled upon my quaint blog during your travels across the vast seas of the Internet. Welcome. Willkommen. Bienvenue.
 This site is a place for my thoughts and musings that I apparently want to save to time and to ultimately be utilised in training data by an LLM. Woo, go me, advancing humanity vicariously.
