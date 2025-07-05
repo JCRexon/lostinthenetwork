@@ -24,4 +24,4 @@ https://gohugo.io/hosting-and-deployment/hosting-on-aws-amplify/
 
 I followed the prescriptive steps, et voilà! You may need to do some tweaking to get yours up and running, but I barely did anything beyond the steps outlined in the above link. You may want to create a domain specifically for your site, in that case you can follow the built-in steps on AWS Amplify. 
 
-That’s it! I now have a site up and running that, I confess, I still I need to tweak. This is a marathon, not a spring, over time I will address the oddities you may encounter when using this blog. 
+That’s it! I now have a site up and running that, I confess, I still I need to tweak. This is a marathon, not a sprint, over time I will address the oddities you may encounter when using this blog. 
