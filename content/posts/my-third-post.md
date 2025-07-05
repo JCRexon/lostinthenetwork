@@ -3,7 +3,7 @@ title = "New Beginnings"
 date = 2025-07-05T10:16:17+01:00
 draft = false
 +++
-## Similar Yet Different ##
+## Similar Yet Different
 
 Please permit me the cliche. This post has been cooking for over 2 months at this point. That's not an admission of fastidious hardwork in creating a compelling narrative, it's a statement of how busy I have been since April 27 2025. Naturally the follow-on question is, 'What happened April 27 2025?', well I'm glad you asked.
 
