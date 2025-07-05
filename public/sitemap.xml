@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lostinthenetwork.uk/</loc>
+    <loc>/</loc>
     <lastmod>2025-07-05T10:16:17+01:00</lastmod>
   </url><url>
-    <loc>https://lostinthenetwork.uk/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2025-07-05T10:16:17+01:00</lastmod>
   </url><url>
-    <loc>https://lostinthenetwork.uk/posts/20240506-blog-setup/</loc>
+    <loc>/posts/20240506-blog-setup/</loc>
     <lastmod>2024-05-06T14:50:07+01:00</lastmod>
   </url><url>
-    <loc>https://lostinthenetwork.uk/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2024-04-28T10:16:17+01:00</lastmod>
   </url><url>
-    <loc>https://lostinthenetwork.uk/archives/</loc>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://lostinthenetwork.uk/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://lostinthenetwork.uk/search/</loc>
+    <loc>/search/</loc>
   </url><url>
-    <loc>https://lostinthenetwork.uk/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
