@@ -1,6 +1,6 @@
 +++
-title = 'New Beginnings'
-date = 2025-07-05T10:16:17+01:00
+title = "New Beginnings"
+date = 2025-07-05T09:16:17+01:00
 draft = false
 +++
 ## Similar Yet Different ##
