@@ -1,6 +1,6 @@
 baseURL: "https://lostinthenetwork.uk/"
 title: Lost in the Network
-#paginate: 5
+paginate: 5
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -11,6 +11,8 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
+
+timeZone: "Europe/London"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
