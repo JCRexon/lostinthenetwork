@@ -1,6 +1,7 @@
 baseURL: "https://lostinthenetwork.uk/"
 title: Lost in the Network
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
