@@ -1,6 +1,6 @@
 +++  
 title = "Kubernetes School Analogy"  
-date = 2026-06-15T14:35:17+06:00  
+date = 2026-06-15T00:35:17+00:00  
 draft = false  
 +++  
 ## Alternative ELI5 Approach for Kubernetes Architectures  
