@@ -3,7 +3,7 @@ title = "Kubernetes School Analogy"
 date = 2026-06-15T00:35:17+00:00  
 draft = false  
 +++  
-## Alternative ELI5 Approach for Kubernetes Architectures  
+## Alternative ELI5 for Kubernetes  
 As of late I have been studying for the Certified Kubernetes Administrator (CKA) certification. I've been using the excellent KodeKloud CKA course (see below for links\!) and I found their ship analogy to be a strong way to simplify the Kubernetes architecture & components. I was considering the analogy last week and questioned if there's an alternative analogy that would be accessible to individuals that don't have a clear conceptual understanding of ships.
 
 My son is 3.5 years old and is often interested in what I am doing. He does not have a strong conceptual understanding of ships or boats. He does have an understanding of schools and how they function (albeit currently limited to his kindergarten environment). I appreciate we are 1.5 years early, but it gives me time to finesse things :)
