@@ -1,0 +1,57 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect x="0" y="0" width="900" height="600" rx="14" fill="#0f1117"/>
+
+  <defs>
+    <marker id="cyan" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="48" font-size="28" font-weight="700" fill="#e8ecf4">What is your edge?</text>
+  <text x="40" y="76" font-size="14" fill="#8b95a7">Edge Compute &amp; AI — where data is born and decisions can't wait for the cloud.</text>
+
+  <!-- Hub -->
+  <rect x="320" y="110" width="260" height="74" rx="12" fill="#22d3ee" fill-opacity="0.10" stroke="#22d3ee" stroke-width="2"/>
+  <text x="450" y="144" font-size="16" font-weight="700" fill="#22d3ee" text-anchor="middle">Where is YOUR edge?</text>
+  <text x="450" y="167" font-size="11" fill="#8b95a7" text-anchor="middle">One platform — many front lines</text>
+
+  <!-- Spokes: trunk + bus + drops -->
+  <line x1="450" y1="186" x2="450" y2="300" stroke="#22d3ee" stroke-width="1.5" opacity="0.7"/>
+  <line x1="160" y1="300" x2="740" y2="300" stroke="#22d3ee" stroke-width="1.5" opacity="0.7"/>
+  <line x1="160" y1="300" x2="160" y2="354" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#cyan)"/>
+  <line x1="450" y1="300" x2="450" y2="354" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#cyan)"/>
+  <line x1="740" y1="300" x2="740" y2="354" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#cyan)"/>
+
+  <!-- Card 1: Retail -->
+  <rect x="30" y="360" width="260" height="210" rx="10" fill="#fbbf24" fill-opacity="0.05" stroke="#fbbf24" stroke-width="1.5"/>
+  <circle cx="52" cy="392" r="6" fill="#fbbf24"/>
+  <text x="68" y="397" font-size="15" font-weight="700" fill="#fbbf24">Retail</text>
+  <text x="50" y="426" font-size="9.5" letter-spacing="1.5" fill="#8b95a7">YOUR EDGE IS</text>
+  <text x="50" y="450" font-size="15" font-weight="700" fill="#e8ecf4">The store floor</text>
+  <text x="50" y="482" font-size="11" fill="#8b95a7">Real-time customer analytics,</text>
+  <text x="50" y="500" font-size="11" fill="#8b95a7">inventory and personalised</text>
+  <text x="50" y="518" font-size="11" fill="#8b95a7">experience — data stays on-site.</text>
+
+  <!-- Card 2: Healthcare -->
+  <rect x="320" y="360" width="260" height="210" rx="10" fill="#34d399" fill-opacity="0.05" stroke="#34d399" stroke-width="1.5"/>
+  <circle cx="342" cy="392" r="6" fill="#34d399"/>
+  <text x="358" y="397" font-size="15" font-weight="700" fill="#34d399">Healthcare</text>
+  <text x="340" y="426" font-size="9.5" letter-spacing="1.5" fill="#8b95a7">YOUR EDGE IS</text>
+  <text x="340" y="450" font-size="15" font-weight="700" fill="#e8ecf4">The point of care</text>
+  <text x="340" y="482" font-size="11" fill="#8b95a7">Process scans and diagnose</text>
+  <text x="340" y="500" font-size="11" fill="#8b95a7">on-site — no round-trip to</text>
+  <text x="340" y="518" font-size="11" fill="#8b95a7">the cloud, no waiting.</text>
+
+  <!-- Card 3: Manufacturing -->
+  <rect x="610" y="360" width="260" height="210" rx="10" fill="#fb923c" fill-opacity="0.05" stroke="#fb923c" stroke-width="1.5"/>
+  <circle cx="632" cy="392" r="6" fill="#fb923c"/>
+  <text x="648" y="397" font-size="15" font-weight="700" fill="#fb923c">Manufacturing</text>
+  <text x="630" y="426" font-size="9.5" letter-spacing="1.5" fill="#8b95a7">YOUR EDGE IS</text>
+  <text x="630" y="450" font-size="15" font-weight="700" fill="#e8ecf4">The factory floor</text>
+  <text x="630" y="482" font-size="11" fill="#8b95a7">Self-optimising lines: local</text>
+  <text x="630" y="500" font-size="11" fill="#8b95a7">analytics for yield, quality</text>
+  <text x="630" y="518" font-size="11" fill="#8b95a7">and predictive maintenance.</text>
+
+  <!-- Footer -->
+  <text x="40" y="592" font-size="12" fill="#8b95a7">The edge converges compute, networking, storage and security into one AI-ready system — wherever your edge happens to be.</text>
+</svg>
