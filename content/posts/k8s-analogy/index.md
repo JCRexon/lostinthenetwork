@@ -27,6 +27,8 @@ This post will set out the cast of the analogy and subsequent posts will dive in
 | Front Office | **API server** | The *only* thing allowed to write to the Register. Everyone that wants to read/write must use the Front Office. |
 | Administration | **Control plane** | Head Office + Front Office + Timetabler + Teachers. *Not* "the whole school" — the school includes the students. |
 
+![The school is the cluster](01-school-is-the-cluster.svg)
+
 ## Looking Forward
 Next post will be breaking down the Student <> Container analogy and looking at how the considerations for Containers knit up with considerations for Students.
 
