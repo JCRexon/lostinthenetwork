@@ -32,7 +32,7 @@ This post will set out the cast of the analogy and subsequent posts will dive in
 ## Looking Forward
 Next post will be breaking down the Student <> Container analogy and looking at how the considerations for Containers knit up with considerations for Students.
 
-*Links*
+## *Links*
 * https://kodekloud.com/
 * https://kodekloud.com/learning-path/cka
 * https://learn.kodekloud.com/user/courses/cka-certification-course-certified-kubernetes-administrator
