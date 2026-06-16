@@ -12,6 +12,8 @@ Students learn based on the lesson plans provided to them. That learning plan ca
 
 The Student is a running instance of a lesson plan. The container is a running instance of the associated image.
 
+![The school is the cluster](01-school-is-the-cluster.svg)
+
 ## What Other Mapping Exists?
 A Student does not intuit the knowledge of the lesson plan. The knowledge is gained by running the image, engaging in the lesson plan.
 
