@@ -1,8 +1,26 @@
+.first-entry,
+.post-entry {
+  position: relative;
+}
+
+.first-entry[data-series="edge"],
+.post-entry[data-series="edge"] { box-shadow: inset 3px 0 0 #10b981 !important; }
+.first-entry[data-series="k8s"],
+.post-entry[data-series="k8s"] { box-shadow: inset 3px 0 0 #f472b6 !important; }
+
+.entry-header h2.entry-hint-parent {
+  display: flex;
+  align-items: center;
+}
+
 .series-tag {
-  font-size: 11px; font-weight: 500;
-  padding: 2px 9px; border-radius: 4px;
-  margin-left: 8px; vertical-align: 3px;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 9px;
+  border-radius: 4px;
+  margin-left: auto;
   text-transform: lowercase;
 }
+
 .series-edge { background: rgba(16, 185, 129, 0.16); color: #0f6e56; }
 .series-k8s  { background: rgba(244, 114, 182, 0.16); color: #993556; }
