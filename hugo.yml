@@ -1,5 +1,6 @@
 baseURL: "https://lostinthenetwork.uk/"
 title: Lost in the Network
+copyright: "© 2026 James C. Miles · [lostinthenetwork.uk](https://lostinthenetwork.uk/)"
 pagination:
   pagerSize: 5
 theme: ["PaperMod"]
