@@ -78,12 +78,10 @@ params:
     Content: "Notes on edge infrastructure, eBPF, and AI at the edge — by someone who'll tell you which layer actually matters."
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jamescmiles/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/jmstudyacc"
 
   analytics:
     google:
