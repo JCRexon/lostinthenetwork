@@ -16,7 +16,7 @@ I acknowledge that’s still a pretty wide breadth of verticals & locations. How
 ## What Is Your Edge?
 Vendors across the IT field are all targeting the Edge these days. Sometimes that targeting focuses on just the WAN itself, sometimes it is only considering the compute, sometimes it focuses on the whole stack, Compute, AI, Security, Networking. Frankly though, what the vendor’s Edge portfolio looks like is irrelevant until one has a clear vision of their own Edge.
 
-So, what is your edge? Are you in retail and your Edge vision is every store that services your clients? Perhaps you’re in healthcare and your Edge remit focuses more on hospitals, GPs, and pop-up health clinics. Financial institutions with local branches and larger ATMs also have an expanding & critically important Edge vision.
+So, what is your edge? Are you in retail and your Edge vision is every store that services your clients? Perhaps you’re in healthcare and your Edge remit focuses more on hospitals, GPs, and pop-up health clinics. Manufacturing organisations with factories, clean & dirty, have multiple Edge locations feeling the double pinch of technical debt (I see you Windows XP for PLCs) and a shove in the direction of Industry 4.0 and Factory of the Future. 
 
 The above are a few examples across a few verticals, but in my view the Edge has a place for most verticals. Would one exclude CoLos? For the above definition, I would. They do not operate under the constraints we have outlined. Would I discount CSPs? No, even CSPs have an Edge vision. Look to Google Distributed Cloud and how it augments Google Cloud Platform at the edge.
 
