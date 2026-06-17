@@ -24,3 +24,14 @@
 
 .series-edge { background: rgba(16, 185, 129, 0.16); color: #0f6e56; }
 .series-k8s  { background: rgba(50, 108, 229, 0.16); color: #1c4fa0; }
+
+.banner-strip {
+  max-width: var(--main-width);
+  margin: var(--gap) auto 0;
+  padding: 0 var(--gap);
+}
+.banner-strip img {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+}
