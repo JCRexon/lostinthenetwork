@@ -74,7 +74,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "James C. Miles"
     Content: "Notes on edge infrastructure, eBPF, and AI at the edge — by someone who'll tell you which layer actually matters."
 
   socialIcons:
