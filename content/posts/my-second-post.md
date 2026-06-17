@@ -1,7 +1,7 @@
 +++
 title = "Setting Up This Blog"
 date = 2024-05-06T14:50:07+01:00
-draft = false
+draft = true
 +++
 
 Hi there 👋
