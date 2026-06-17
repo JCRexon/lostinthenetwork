@@ -1,7 +1,8 @@
 
 +++  
 title = "Kubernetes School Analogy"  
-date = 2026-06-15T00:35:17+00:00  
+date = 2026-06-15T00:35:17+00:00
+cardSeries = k8s
 draft = false  
 +++  
 ## Alternative ELI5 for Kubernetes  
