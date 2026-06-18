@@ -112,3 +112,11 @@
         </ul>
     </nav>
 </header>
+
+{{- if .IsHome }}
+<div class="banner-strip">
+  <img src="{{ "banner.webp" | absURL }}" width="1600" height="475"
+       alt="lostinthenetwork — a small figure in a wilderness built from computer components"
+       loading="eager" />
+</div>
+{{- end }}
