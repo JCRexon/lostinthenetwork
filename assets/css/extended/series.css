@@ -27,7 +27,8 @@
 
 .banner-strip {
   max-width: var(--main-width);
-  margin: var(--gap) auto 0;
+  width: 100%;
+  margin: 0 auto 0.5rem;
   padding: 0 var(--gap);
 }
 .banner-strip img {
