@@ -13,7 +13,7 @@ Students learn based on the lesson plans provided to them. That learning plan ca
 
 The Student is a running instance of a lesson plan. The container is a running instance of the associated image.
 
-![A student is an instance of a lesson plan, and a student's in-memory state is lost on restart](03-student-is-an-instance.svg)
+![A student is an instance of a lesson plan, and a student's in-memory state is lost on restart](02-student-is-an-instance.svg)
 
 ## What Other Mapping Exists?
 A Student does not intuit the knowledge of the lesson plan. The knowledge is gained by running the image, engaging in the lesson plan.
