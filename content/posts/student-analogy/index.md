@@ -1,6 +1,7 @@
 +++
 title = "The Student Container"
 date = 2026-06-22T16:00:00
+cardSeries = "k8s"
 draft = false
 +++
 
