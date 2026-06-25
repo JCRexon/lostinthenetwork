@@ -1,0 +1,48 @@
++++
+title = "Worlds Collide"
+date = 2026-06-25
+cardSeries = "edge"
+draft = false
++++
+
+Previously we looked at what the Edge is, some of the verticals that have a real need for Edge, and proposed the theory that current infrastructure is holding Edge objectives back. We will explore that theory in greater detail below with the following question in mind throughout. 
+
+_Why is the current operating model at the Edge no longer fit for purpose?_
+
+**Old Edge Meets New Requirements**
+
+There’s no avoiding the AI influence on the push to the modern edge. It has catalysed the focus, but the need has been present for a long time. In my view the movement has been a combination of the following interconnected issues:  
+
+- Cloud-incurred latencies & data sovereignty concerns
+- WAN bandwidths significantly lagging behind LAN speeds
+- A forgotten Edge estate
+
+**Someone Else's Servers**
+Cloud has been a brilliant enabler of digital adoption. This approach of outsourcing core capability has enabled a raft of businesses & individuals to achieve value without deep IT teams. However, it comes with many tradeoffs, the one to focus on here is latency. 
+
+This may seem negligible when considering traditional core workloads, messaging, emails, file sync, and more. This latency becomes a bottleneck when you have a requirement for low latency, like near real-time.
+
+Fundamentally, this means the time it takes to egress from the local site, traverse the provider network, move to the cloud, be processed, and return, takes too long.
+
+<diagram of this workflow>
+
+As of late the more disruptive spectre is data sovereignty. In regulated environments sovereignty is a requirement. In the wider 'SaaS-first' environments it was often a second-thought (GDPR notwithstanding). Three significant events have propelled sovereignty to the forefront:
+
+- AWS outage in Northern Virginia impacting global AWS services (CSP stability over the last 12-18mo has been noticeably less reliable)
+- Iran attacking cloud service provider data centres in the Middle East in retaliatory strikes against the USA, leading to multiple availability zone failures that in-region redundancy didn't prevent
+- The United States administration suspending access to Fable 5 and Mythos for non-US citizens
+
+Data sovereignty is extending beyond just data in region. The EU is pushing against US tech dominance by adopting Open Source or EU-specific software for public sector bodies. The Edge is typically closer to systems generating sensitive data and this is leading to edge-centric processing. This does not eliminate Cloud workloads, but is increasing the amount of data processing occurring at the Edge, not in the Cloud.
+
+**WAN == Tech Debt**
+Compounding the above problem is the fact that WAN bandwidths have not kept pace with LAN speeds. Edge sites are often still on 100Mbps private circuits and/or use Internet circuits, which are often faster. 1G circuits are not uncommon, but have a premium when bought as a business Internet circuit. 
+
+The choice then exists to upgrade your circuits to the required speeds to quickly hit the Cloud, then incur the cloud latency, and return to your Edge sites. This becomes a question of scale related expense where you need to factor in increased bandwidths across all Edge sites.
+
+**The Forgotten Estate**
+My view is that the Edge has been a domain that has not yet been fully optimised. Servers at the Edge sites have traditionally been legacy in nature and consistency across these legacy servers is not guaranteed. In fact, consistency across Edge sites cannot generally be assumed. This has caused an additional problem where legacy hardware & software is not configured consistently. This expands the attack vector and makes Edge sites a security concern. That compounds the neglect of the Edge sites as they rapidly develop a perception of being too complicated to resolve, cost too much to refresh, and local knowledge of the sites is low.
+
+**Well then, what _is_ the Modern Edge?**
+A modern edge deployment needs to consider more than just racking tower-profile servers sideways and attaching a WAN router. It's not enough to simply rely on an Internet breakout at Edge sites and assume your Cloud operating model is fit for purpose. Workload demands increase at a rate that WAN circuits (a real bottleneck when you consider new circuits may require getting permits, digging up roads, laying new fibre, and more) cannot match.
+
+The next few posts will explore this, so look out for 'Tyranny of SWaP', and 'Edge is a Stack' coming in July!
