@@ -24,7 +24,7 @@ This may seem negligible when considering traditional core workloads, messaging,
 
 Fundamentally, this means the time it takes to egress from the local site, traverse the provider network, move to the cloud, be processed, and return, takes too long.
 
-<diagram of this workflow>
+![Edge to Cloud Roundtrip](edge-02-cloud-round-trip.svg)
 
 As of late the more disruptive spectre is data sovereignty. In regulated environments sovereignty is a requirement. In the wider 'SaaS-first' environments it was often a second-thought (GDPR notwithstanding). Three significant events have propelled sovereignty to the forefront:
 
