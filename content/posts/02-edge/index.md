@@ -18,6 +18,7 @@ There’s no avoiding the AI influence on the push to the modern edge. It has ca
 - A forgotten Edge estate
 
 **Someone Else's Servers**
+
 Cloud has been a brilliant enabler of digital adoption. This approach of outsourcing core capability has enabled a raft of businesses & individuals to achieve value without deep IT teams. However, it comes with many tradeoffs, the one to focus on here is latency. 
 
 This may seem negligible when considering traditional core workloads, messaging, emails, file sync, and more. This latency becomes a bottleneck when you have a requirement for low latency, like near real-time.
@@ -35,14 +36,17 @@ As of late the more disruptive spectre is data sovereignty. In regulated environ
 Data sovereignty is extending beyond just data in region. The EU is pushing against US tech dominance by adopting Open Source or EU-specific software for public sector bodies. The Edge is typically closer to systems generating sensitive data and this is leading to edge-centric processing. This does not eliminate Cloud workloads, but is increasing the amount of data processing occurring at the Edge, not in the Cloud.
 
 **WAN == Tech Debt**
+
 Compounding the above problem is the fact that WAN bandwidths have not kept pace with LAN speeds. Edge sites are often still on 100Mbps private circuits and/or use Internet circuits, which are often faster. 1G circuits are not uncommon, but have a premium when bought as a business Internet circuit. 
 
 The choice then exists to upgrade your circuits to the required speeds to quickly hit the Cloud, then incur the cloud latency, and return to your Edge sites. This becomes a question of scale related expense where you need to factor in increased bandwidths across all Edge sites.
 
 **The Forgotten Estate**
+
 My view is that the Edge has been a domain that has not yet been fully optimised. Servers at the Edge sites have traditionally been legacy in nature and consistency across these legacy servers is not guaranteed. In fact, consistency across Edge sites cannot generally be assumed. This has caused an additional problem where legacy hardware & software is not configured consistently. This expands the attack vector and makes Edge sites a security concern. That compounds the neglect of the Edge sites as they rapidly develop a perception of being too complicated to resolve, cost too much to refresh, and local knowledge of the sites is low.
 
 **Well then, what _is_ the Modern Edge?**
+
 A modern edge deployment needs to consider more than just racking tower-profile servers sideways and attaching a WAN router. It's not enough to simply rely on an Internet breakout at Edge sites and assume your Cloud operating model is fit for purpose. Workload demands increase at a rate that WAN circuits (a real bottleneck when you consider new circuits may require getting permits, digging up roads, laying new fibre, and more) cannot match.
 
 The next few posts will explore this, so look out for 'Tyranny of SWaP', and 'Edge is a Stack' coming in July!
