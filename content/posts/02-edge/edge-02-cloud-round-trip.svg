@@ -1,0 +1,68 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect x="0" y="0" width="900" height="560" rx="14" fill="#0f1117"/>
+
+  <text x="40" y="48" font-size="26" font-weight="700" fill="#e8ecf4">The round trip is the bottleneck</text>
+  <text x="40" y="74" font-size="14" fill="#8b95a7">Egress, traverse, process, return — invisible for email, fatal when something needs an answer now.</text>
+
+  <!-- Edge site -->
+  <rect x="48" y="130" width="180" height="150" rx="12" fill="#22d3ee" fill-opacity="0.06" stroke="#22d3ee" stroke-width="2.5"/>
+  <text x="68" y="158" font-size="14" font-weight="700" fill="#22d3ee">EDGE SITE</text>
+  <circle cx="138" cy="208" r="20" fill="#22d3ee"/>
+  <rect x="112" y="232" width="52" height="26" rx="6" fill="#22d3ee"/>
+  <text x="138" y="272" font-size="11" fill="#8b95a7" text-anchor="middle">where the data is born</text>
+
+  <!-- Cloud -->
+  <rect x="672" y="130" width="180" height="150" rx="12" fill="#60a5fa" fill-opacity="0.06" stroke="#60a5fa" stroke-width="2.5"/>
+  <text x="692" y="158" font-size="14" font-weight="700" fill="#60a5fa">CLOUD</text>
+  <rect x="724" y="190" width="78" height="44" rx="8" fill="#60a5fa" fill-opacity="0.22" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="763" y="217" font-size="12" font-weight="600" fill="#bfdbfe" text-anchor="middle">process</text>
+  <text x="762" y="272" font-size="11" fill="#8b95a7" text-anchor="middle">somewhere far away</text>
+
+  <!-- Provider network band -->
+  <rect x="244" y="160" width="412" height="92" rx="10" fill="#a78bfa" fill-opacity="0.05" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="450" y="184" font-size="11" font-weight="600" fill="#c4b5fd" text-anchor="middle">PROVIDER NETWORK / WAN</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#a78bfa"/>
+    </marker>
+  </defs>
+
+  <!-- Outbound -->
+  <text x="450" y="206" font-size="11" font-weight="600" fill="#c4b5fd" text-anchor="middle">data egresses to the cloud</text>
+  <line x1="228" y1="214" x2="668" y2="214" stroke="#a78bfa" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- Return -->
+  <line x1="672" y1="240" x2="232" y2="240" stroke="#a78bfa" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="450" y="259" font-size="11" font-weight="600" fill="#c4b5fd" text-anchor="middle">processed result returns</text>
+
+  <!-- Latency bar -->
+  <text x="48" y="372" font-size="14" font-weight="700" fill="#e8ecf4">Round-trip latency, stacked</text>
+
+  <!-- budget marker -->
+  <line x1="250" y1="392" x2="250" y2="452" stroke="#fbbf24" stroke-width="2" stroke-dasharray="3 4"/>
+  <text x="250" y="388" font-size="11" font-weight="600" fill="#fbbf24" text-anchor="middle">near-real-time budget</text>
+
+  <!-- segment labels -->
+  <text x="92"  y="402" font-size="10" fill="#8b95a7" text-anchor="middle">egress</text>
+  <text x="218" y="402" font-size="10" fill="#8b95a7" text-anchor="middle">WAN out</text>
+  <text x="367" y="402" font-size="10" fill="#8b95a7" text-anchor="middle">process</text>
+  <text x="516" y="402" font-size="10" fill="#8b95a7" text-anchor="middle">WAN back</text>
+  <text x="642" y="402" font-size="10" fill="#8b95a7" text-anchor="middle">ingress</text>
+
+  <!-- segments -->
+  <rect x="60"  y="408" width="64"  height="32" fill="#22d3ee"/>
+  <rect x="124" y="408" width="188" height="32" fill="#a78bfa"/>
+  <rect x="312" y="408" width="110" height="32" fill="#60a5fa"/>
+  <rect x="422" y="408" width="188" height="32" fill="#a78bfa"/>
+  <rect x="610" y="408" width="64"  height="32" fill="#22d3ee"/>
+
+  <!-- overshoot bracket -->
+  <line x1="250" y1="452" x2="250" y2="458" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="674" y1="452" x2="674" y2="458" stroke="#f87171" stroke-width="1.5"/>
+  <line x1="250" y1="458" x2="674" y2="458" stroke="#f87171" stroke-width="1.5"/>
+  <text x="462" y="474" font-size="11" font-weight="600" fill="#f87171" text-anchor="middle">everything past the budget line is the bottleneck</text>
+
+  <text x="40" y="520" font-size="12" fill="#8b95a7">Tolerant workloads — email, messaging, file sync — never notice the trip; they wait happily.</text>
+  <text x="40" y="540" font-size="12" fill="#8b95a7">Near-real-time blows the budget on transit alone. Widths are illustrative — the point is the sum, not the milliseconds.</text>
+</svg>
